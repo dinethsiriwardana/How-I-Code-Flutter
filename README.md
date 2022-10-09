@@ -13,7 +13,7 @@
     >  provider: ^6.0.3 <br>
     >  responsive_sizer: ^3.1.1 <br> 
 
-    ### And run
+    **xAnd run**
      > flutter pub upgrade
 
 
