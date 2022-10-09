@@ -14,7 +14,7 @@
     >  responsive_sizer: ^3.1.1 <br> 
 
 **And run**
-     > flutter pub upgrade
+    > flutter pub upgrade
 
 
 ### Add responsive_sizer to the main.dart
