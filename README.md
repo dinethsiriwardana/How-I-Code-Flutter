@@ -13,12 +13,11 @@
     >  provider: ^6.0.3 <br>
     >  responsive_sizer: ^3.1.1 <br> 
 
-**And run**
-    > flutter pub upgrade
+    And run > flutter pub upgrade
 
 
 ### Add responsive_sizer to the main.dart
 
- return ResponsiveSizer(builder: (context, orientation, screenType) {
-
-    )}
+    > return ResponsiveSizer(builder: (context, orientation, screenType) {
+    > 
+    > )}
