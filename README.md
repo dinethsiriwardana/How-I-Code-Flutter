@@ -3,6 +3,7 @@
 
 
 ### My Basic Packages :-
+```yaml
     cupertino_icons: ^1.0.2 
     flutter_lints: ^2.0.0 
     firebase_auth: ^3.11.2 
@@ -14,7 +15,7 @@
     provider: ^6.0.3 
     responsive_sizer: ^3.1.1  
     font_awesome_flutter: ^10.1.0  
-
+```
     And run > flutter pub upgrade
 
 
@@ -36,19 +37,17 @@
 
 ### Add get routes to the routes.dart (Need to create a file)
 Change *MaterialApp* -> *GetMaterialApp* in the main.dart
+
 ```dart
     import 'package:get/get.dart';
 
     class RoutesClass {
         static String landing = "/";
-        static String login = "/login";
 
         static String getHomeRoute() => landing;
-        static String getLoginRoute() => login;
 
         static List<GetPage> routes = [
             GetPage(page: () => LandingPage(), name: landing),
-            GetPage(page: () => LoginScreen(), name: login),
         ];
     }
 ```
