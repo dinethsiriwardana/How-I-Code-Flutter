@@ -23,3 +23,29 @@
     > return ResponsiveSizer(builder: (context, orientation, screenType) {
     
     > )}
+
+
+### Add provider to the main.dart
+
+    > return Provider<AuthBase>(
+    >    create: (context) => Auth(),
+
+    > )
+
+
+
+### Add get routes to the routes.dart (Need to create a file)
+
+    > import 'package:get/get.dart'; 
+    > class RoutesClass {
+        > static String landing = "/";
+        > static String login = "/login";
+
+        > static String getHomeRoute() => landing;
+        > static String getLoginRoute() => login;
+
+        > static List<GetPage> routes = [
+        >     GetPage(page: () => LandingPage(), name: landing),
+        >     GetPage(page: () => LoginScreen(), name: login),
+        > ];
+    > }
