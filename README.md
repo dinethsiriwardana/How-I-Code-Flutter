@@ -19,23 +19,24 @@
 
 
 ### Add responsive_sizer to the main.dart
-
+```dart
     return ResponsiveSizer(builder: (context, orientation, screenType) {
     
     )}
-
+```
 
 ### Add provider to the main.dart
-
+```dart
     return Provider<AuthBase>(
        create: (context) => Auth(),
     )
+```
 
 
 
 ### Add get routes to the routes.dart (Need to create a file)
 Change *MaterialApp* -> *GetMaterialApp* in the main.dart
-
+```dart
     import 'package:get/get.dart';
 
     class RoutesClass {
@@ -50,3 +51,4 @@ Change *MaterialApp* -> *GetMaterialApp* in the main.dart
             GetPage(page: () => LoginScreen(), name: login),
         ];
     }
+```
