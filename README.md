@@ -34,7 +34,7 @@
 
 
 ### Add get routes to the routes.dart (Need to create a file)
-### Change **MaterialApp** -> **GetMaterialApp** in the main.dart
+Change * *MaterialApp* * -> * *GetMaterialApp* * in the main.dart
 
     import 'package:get/get.dart';
 
