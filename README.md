@@ -52,3 +52,13 @@ Change *MaterialApp* -> *GetMaterialApp* in the main.dart
         ];
     }
 ```
+
+
+## Connect Database class using provider in the landing_page.dart
+
+```dart
+      return Provider<Database>(
+            create: (_) => FirestoreDatabase(user: user.uid),
+            child: //return
+      );                 
+```
