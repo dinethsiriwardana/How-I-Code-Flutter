@@ -4,17 +4,18 @@
 
 ### My Basic Packages :-
 ```yaml
-    cupertino_icons: ^1.0.2 
-    flutter_lints: ^2.0.0 
-    firebase_auth: ^3.11.2 
-    firebase_core: ^1.24.0 
-    firebase_storage: ^10.3.11 
-    firebase_database: ^9.1.7 
-    get: ^4.6.5 
-    google_fonts: ^3.0.1
-    provider: ^6.0.3 
-    responsive_sizer: ^3.1.1  
-    font_awesome_flutter: ^10.1.0  
+      cupertino_icons: ^1.0.2
+      cloud_firestore: ^3.5.1
+      flutter_lints: ^2.0.0
+      firebase_auth: ^3.11.2
+      firebase_core: ^1.24.0
+      firebase_storage: ^10.3.11
+      firebase_database: ^9.1.7
+      font_awesome_flutter: ^10.1.0
+      get: ^4.6.5
+      provider: ^6.0.3
+      responsive_sizer: ^3.1.1
+      google_fonts: ^3.0.1  
 ```
     And run > flutter pub upgrade
 
