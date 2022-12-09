@@ -34,6 +34,14 @@ Future<void> main() async {
 }
 ```
 
+### Setup Pod File
+      #### Uncomment the  platform :ios, '11.0'  line in ios/Podfile
+      #### Open Terminal in ios folder and run
+      ```
+            pod repo update
+            pod install
+      ```
+
 ### Add responsive_sizer to the main.dart
 ```dart
     return ResponsiveSizer(builder: (context, orientation, screenType) {
