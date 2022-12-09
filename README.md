@@ -19,6 +19,14 @@
 ```
     And run > flutter pub upgrade
 
+### Add Firebase Dev to void main
+```dart
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+```
 
 ### Add responsive_sizer to the main.dart
 ```dart
