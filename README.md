@@ -52,7 +52,7 @@ Future<void> main() async {
 ```dart
     return ResponsiveSizer(builder: (context, orientation, screenType) {
     
-    )}
+    });
 ```
 
 ### Add provider to the main.dart
