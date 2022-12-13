@@ -34,13 +34,20 @@ Future<void> main() async {
 
 ```
 
-### Setup Pod File
-      #### Uncomment the  platform :ios, '11.0'  line in ios/Podfile
-      #### Open Terminal in ios folder and run
-      ```
-            pod repo update
-            pod install
-      ```
+### Setup Pod File 
+#### Uncomment the  platform :ios, '11.0'  line in ios/Podfile
+#### Open Terminal in ios folder and run
+      
+      pod repo update
+      pod install
+      
+### Open android/app/build.gradle and add these lines
+
+    defaultConfig {
+        minSdkVersion 19
+        multiDexEnabled true
+    }
+    
 
 ### Add responsive_sizer to the main.dart
 ```dart
