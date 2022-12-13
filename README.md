@@ -18,6 +18,7 @@
       google_fonts: ^3.0.1  
 ```
     And run > flutter pub upgrade
+            > flutter pub upgrade --major-versions
 
 ### Add Firebase Dev to void main
 ```dart
